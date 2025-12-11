@@ -24,4 +24,8 @@ clock2 = Clock()
 clock2.id = 3004
 clock2.price = 21.1
 print(f'ID:{clock2.id}, price:{clock2.price}')
-clock2.ring()
+clock2.ring
+
+for i in range(5):
+    print("*"*i)
+    
